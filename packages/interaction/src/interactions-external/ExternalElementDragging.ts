@@ -224,7 +224,7 @@ function computeEventForDateSpan(dateSpan: DateSpan, dragMeta: DragMeta, context
     refined,
     extra,
     dragMeta.sourceId,
-    dateSpan.allDay,
+    dragMeta.allDay && dateSpan.allDay,
     context.options.forceEventDuration || Boolean(dragMeta.duration), // hasEnd
     context,
   )

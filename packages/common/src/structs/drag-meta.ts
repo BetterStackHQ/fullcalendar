@@ -11,6 +11,7 @@ const DRAG_META_REFINERS = {
   duration: createDuration,
   create: Boolean,
   sourceId: String,
+  allDay: Boolean,
 }
 
 export type DragMetaInput =
@@ -23,6 +24,7 @@ export interface DragMeta {
   create: boolean // create an event when dropped?
   sourceId: string // similar to addEvent's parameter
   leftoverProps: Dictionary
+  allDay: boolean
 }
 
 export function parseDragMeta(raw: DragMetaInput): DragMeta {
@@ -33,6 +35,7 @@ export function parseDragMeta(raw: DragMetaInput): DragMeta {
     duration: refined.duration || null,
     create: refined.create != null ? refined.create : true,
     sourceId: refined.sourceId,
+    allDay: refined.allDay,
     leftoverProps: extra,
   }
 }
