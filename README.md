@@ -1,10 +1,8 @@
-# FullCalendar
 
-A full-sized drag & drop JavaScript event calendar
+# FullCalendar Common
 
-- [Project website and demos](http://fullcalendar.io/)
-- [Documentation](http://fullcalendar.io/docs)
-- [Support](http://fullcalendar.io/support)
-- [Contributing](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
-- [License](LICENSE.txt)
+internal package
+
+[View the docs &raquo;](https://fullcalendar.io/docs)
+
+This package was created from the [FullCalendar monorepo &raquo;](https://github.com/fullcalendar/fullcalendar)
