@@ -5,7 +5,7 @@
   "description": "Provides core functionality, including the Calendar class",
   "docs": "https://fullcalendar.io/docs/initialize-es6",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.10.1",
+    "@fullcalendar/common": "https://gitpkg.now.sh/BetterStackHQ/fullcalendar/packages/common?785e5ec826878c98c552c1994548b3d5c20ecbad",
     "preact": "^10.0.5",
     "tslib": "^2.1.0"
   },

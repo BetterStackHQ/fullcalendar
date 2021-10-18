@@ -5,7 +5,7 @@
   "description": "Provides functionality for event drag-n-drop, resizing, dateClick, and selectable actions",
   "docs": "https://fullcalendar.io/docs/editable",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.10.1",
+    "@fullcalendar/common": "https://gitpkg.now.sh/BetterStackHQ/fullcalendar/packages/common?785e5ec826878c98c552c1994548b3d5c20ecbad",
     "tslib": "^2.1.0"
   },
   "main": "main.cjs.js",

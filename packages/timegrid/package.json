@@ -5,8 +5,8 @@
   "description": "Display your events on a grid of time slots",
   "docs": "https://fullcalendar.io/docs/timegrid-view",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.10.1",
-    "@fullcalendar/daygrid": "workspace:~5.10.1",
+    "@fullcalendar/common": "https://gitpkg.now.sh/BetterStackHQ/fullcalendar/packages/common?785e5ec826878c98c552c1994548b3d5c20ecbad",
+    "@fullcalendar/daygrid": "https://gitpkg.now.sh/BetterStackHQ/fullcalendar/packages/daygrid?785e5ec826878c98c552c1994548b3d5c20ecbad",
     "tslib": "^2.1.0"
   },
   "main": "main.cjs.js",
